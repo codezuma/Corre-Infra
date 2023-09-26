@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div className="relative bg-primary w-full ">
           <img className='absolute top-0 right-0 z-0  h-full'  src="/assets/images/line-pattern.svg" alt="" />
-      <section className=" flex container-main md:gap-20 gap-10 items-center md:flex-row flex-col  relative z-10  py-24  min-h-screen ">
+      <section className=" flex container-main md:gap-20 gap-10 items-center md:flex-row flex-col  relative z-10  py-24  mx-auto min-h-screen ">
        
         <div className="flex-1">
         <h1 className="w-full md:text-6xl text-white text-4xl mb-6 font-semibold !leading-snug">
@@ -22,7 +22,7 @@ const HeroSection = () => {
         </div>
         <Image width={50} height={50} className='animate-spin absolute bottom-4 ease-linear duration-5s w-24 h-24'  src="/assets/images/best-property.svg" alt="" />
         </div>
-        <div className='w-full flex-1 rounded-md bg-[url("/assets/images/hero-image.png")] h-60 md:h-96 xl:h-[516px] bg-no-repeat bg-bottom bg-cover'></div>
+        <div className='w-full md:flex-1 rounded-md bg-[url("/assets/images/hero-image.png")] block h-96 xl:h-[516px] bg-no-repeat bg-bottom bg-cover'></div>
       </section>
     </div>
   );
