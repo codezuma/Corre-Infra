@@ -12,7 +12,7 @@ About us          </h2>
           With a proud legacy of creating exceptional spaces that stand the test of time, we are committed to delivering excellence in real estate development that aligns with RERA (Real Estate Regulatory Authority) standards.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
           <img
             className="w-full rounded-lg"
             src="https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVpbGRpbmclMjBjb250cnVjdGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
