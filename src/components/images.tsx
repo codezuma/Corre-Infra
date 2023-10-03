@@ -32,7 +32,7 @@ const ImagesSection = () => {
               width={500}
               className="md:h-96 h-64 w-auto"
               alt="feature-image"
-            />{" "}
+            />
           </SplideSlide>
         );
       })}
