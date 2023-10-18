@@ -16,6 +16,7 @@ import ImagesSection from "@components/images";
 import AboutSection from "@components/about-section";
 import ContactSection from "@components/contact-section";
 import LayoutSection from "@components/layout-section";
+import MasterLayoutSection from "@components/shared/master-layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function Home() {
       <AboutSection />
       <FeatureSection />
       <LocationSection/>
+      <MasterLayoutSection/>
       <LayoutSection/>
       <ContactSection/>
       <Footer />
