@@ -15,7 +15,7 @@ const LayoutSection = () => {
           </div>
 
           <div className="mt-10 relative max-w-5xl mx-auto">
-            <div className="w-full object-cover h-96 sm:h-[480px] border-primary border-2 border bg-[url('/assets/images/layout.png')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
+            <div className="w-full object-cover h-96 sm:h-[480px] border-primary border-2 border bg-[url('/assets/images/layout1.png')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
 
             <div className="absolute inset-0 w-full h-full">
               <div className="flex flex-col justify-center items-center w-full h-full">
