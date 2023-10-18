@@ -61,7 +61,7 @@ const FeatureSection = () => {
 {`          Bringing the project that define Corre Infra's commitment to excellence.
 `}          </p>
         </div>
-        <div className="mt-20 flex  gap-8 max-w-7xl mx-auto   flex-wrap justify-between">
+        <div className="mt-20 flex  gap-8 max-w-7xl mx-auto sm:flex-row flex-col   flex-wrap justify-between">
           {features.map((feature, index) => (
             <div className="flex-1 sm:min-w-[300px]" key={index}>
               {/* Icon */}
