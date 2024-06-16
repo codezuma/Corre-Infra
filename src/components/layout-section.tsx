@@ -19,10 +19,7 @@ const LayoutSection = () => {
 
             <div className="absolute inset-0 w-full h-full">
               <div className="flex flex-col justify-center items-center w-full h-full">
-                <a href="/assets/sectorial-plan.pdf" hrefLang="/assets/sectorial-plan.pdf" download className="button-secondary text-primary" >
-                  <i className="bi bi-archive-fill text-xl mr-2"></i>
-                  Download Layout
-                </a>
+               
               </div>
             </div>
 

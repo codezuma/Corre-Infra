@@ -3,9 +3,7 @@ import ContactForm from "./shared/contact-form";
 const ContactSection = ()=>{
     return  <>
     <section className="flex md:py-20 py-10 mx-autog container-main gap-20 md:flex-row flex-col-reverse">
-        <div className="flex-1">
-        <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224568.36078619314!2d76.82493870425402!3d28.42285832585077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d14485a1cd6e5%3A0xbf5526199036b949!2sSultanpur%20National%20Park!5e0!3m2!1sen!2sin!4v1695701362579!5m2!1sen!2sin" width="600" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+       
         <div className="flex-1 box-border">
         <h2 className="text-3xl md:hidden block font-semibold text-primary mb-4">Contact us</h2>
             <div className="bg-primary text-white p-8 border-r-[16px] box-border border-b-[16px] border-secondary">
@@ -26,7 +24,7 @@ const ContactSection = ()=>{
               <svg className="flex-shrink-0 w-6 h-6 text-indigo-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <a href="tel:9810861144"  className="ml-3">+91 9810861144</a>
+              <a href="tel:+917033321333"  className="ml-3">+91-70333-21333              </a>
             </dd>
             <dt><span className="sr-only">Email</span></dt>
             <dd className="flex text-base text-indigo-50">

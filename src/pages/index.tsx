@@ -46,7 +46,6 @@ export default function Home() {
       <FeatureSection />
       <LocationSection/>
       <MasterLayoutSection/>
-      <LayoutSection/>
       <ContactSection/>
       <Footer />
     </>

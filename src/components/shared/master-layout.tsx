@@ -11,7 +11,9 @@ const MasterLayoutSection = () => {
             </div>
   
             <div className="mt-10 relative max-w-5xl mx-auto">
-              <div className="w-full object-cover h-96 sm:h-[480px] border-primary border-2  bg-[url('/assets/images/master-layout.png')] bg-no-repeat bg-center bg-cover "></div>
+              <div className="w-full object-cover  border-primary border-2   bg-no-repeat bg-center bg-cover ">
+               <img src="/assets/images/map.jpg" alt="" />
+              </div>
   
               <div className="absolute bottom-12 -left-20 -z-[1] w-48 h-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg dark:to-slate-900">
                 <div className="bg-white w-48 h-48 rounded-lg dark:bg-slate-900"></div>
