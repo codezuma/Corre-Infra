@@ -1,8 +1,10 @@
 import Image from "next/image";
+import PermissionMarquee from "./marquee";
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-primary w-full ">
+    <div className="relative bg-primary w-full pt-20 ">
+      <PermissionMarquee />
           <img className='absolute top-0 right-0 z-0  h-full'  src="/assets/images/line-pattern.svg" alt="" />
       <section className=" flex container-main md:gap-20 gap-10 items-center md:flex-row flex-col  relative z-10  py-24  mx-auto min-h-screen ">
        

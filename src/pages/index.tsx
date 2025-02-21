@@ -17,6 +17,7 @@ import AboutSection from "@components/about-section";
 import ContactSection from "@components/contact-section";
 import LayoutSection from "@components/layout-section";
 import MasterLayoutSection from "@components/shared/master-layout";
+import PermissionMarquee from "@components/marquee";
 
 const inter = Inter({ subsets: ["latin"] });
 
