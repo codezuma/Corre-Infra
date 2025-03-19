@@ -1,24 +1,15 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Navbar from "@components/navbar";
-import HeroSection from "@components/hero-section";
-import FeatureSection from "@components/feature-section";
-import ApproachSection from "@components/approach-section";
-import CtaSection from "@components/cta-section";
-import Footer from "@components/footer";
-import LocationSection from "@components/location-section";
-import StatsSection from "@components/stats-section";
-import Head from "next/head";
-import Script from "next/script";
-import ContactDialog from "@components/shared/contact-dialog";
-import { Button } from "@components/ui/button";
-import ImagesSection from "@components/images";
 import AboutSection from "@components/about-section";
 import ContactSection from "@components/contact-section";
-import LayoutSection from "@components/layout-section";
+import FeatureSection from "@components/feature-section";
+import Footer from "@components/footer";
+import HeroSection from "@components/hero-section";
+import LocationSection from "@components/location-section";
+import Navbar from "@components/navbar";
+import NewsSection from "@components/news-section";
+import ContactDialog from "@components/shared/contact-dialog";
 import MasterLayoutSection from "@components/shared/master-layout";
-import PermissionMarquee from "@components/marquee";
-
+import { Inter } from "next/font/google";
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -43,6 +34,7 @@ export default function Home() {
       </div>
       <Navbar />
       <HeroSection />
+      <NewsSection />
       <AboutSection />
       <FeatureSection />
       <LocationSection/>
